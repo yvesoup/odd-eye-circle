@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Space+Grotesk:wght@500&display=swap');
+	
+*	{
+	position: static;
+	z-index: 0;
+}
+
+table{
+	background-color: orange;
+}
+
+body {
+	font-family: "Space Grotesk", sans-serif;
+	background-image: url("kimlip53.gif"); /* https://www.nicepng.com/png/detail/820-8207966_member-of-loona-loona-odd-eye-circle-kim.png */
+	background-size: 4% 10%;
+	
+}
+
+.gold	{
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,0.5);
+	position: fixed;
+}
+
+.headerbg {
+	backdrop-filter: blur(8px);
+	border-radius: 20px;
+	background-color: rgb(255 255 255 / 15%); 
+	padding: 10px;
+	font-size: 30px;
+	width: 30%;
+	box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
+}
+
+h1,h2	{
+	transition: color 0.3s, font-family 0.3s;
+	font-family: "Space Grotesk", sans-serif; /* font 1 */
+}
+
+.big	{
+	font-size: 30px;
+}
+
+#white:hover {
+	color: #f1f1f1;
+	font-family: "Comic Sans MS"
+}
+
+#red:hover {
+	color: #f13363;
+}
+
+#blue:hover {
+	color: #3363f1;
+}
+
+#purple:hover {
+	color: #6333f1;
+}
+
+main	{
+	padding: 70px 30px 30px 30px;
+}
+
+li a 	{
+	transition: color 0.3s, font-family 0.3s;
+}
+
+img	{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transition: filter 2s;
+	border-radius: 20px;
+	box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
+}
+
+map:hover,img:hover	{
+	filter: saturate(1000);
+}
+
+.redcontainer	{
+	margin-left: auto;
+    margin-right: auto;
+	background-color: #B02028;
+    max-width: 60%;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.bluecontainer	{
+	margin-left: auto;
+    margin-right: auto;
+	background-color: #284880;
+    max-width: 60%;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.purplecontainer	{
+	margin-left: auto;
+    margin-right: auto;
+	background-color: #AE5E6D;
+    max-width: 60%;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+#roundp	{
+	background-image: url("roundp.png"); /* https://i1.sndcdn.com/artworks-000652413112-ovfpa9-t500x500.jpg */
+	border-radius: 20px;
+	background-size: 5% 50%;
+	padding: 10px;
+	font-family: "Righteous"; /* font 2 */
+	clear: both;
+	box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
+}
+
+#hell	{
+	background-color: #00ffff;
+	background-image: url("bg.png"); /* i made in ms paint */
+	background-size: 2% 4%;
+	color: #ff33ff;
+	transition: transform 3s;
+	transition-timing-function: cubic-bezier(0,2,1,-1);
+}
+
+#hell:hover	{
+	transform: rotate(360deg);
+}
+
+#hell main {
+	backdrop-filter: blur(8px);
+	box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 45%);
+	border-radius: 20px;
+}
+	
+#gif	{
+	object-fit: fill;
+	width: 300px;
+	height: 170px;
+	position: fixed;
+	right: 20px;
+	top: 70px;
+	transition: width 1s;
+	transition-timing-function: ease;
+	box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
+}
+
+#gif:hover	{
+	width: 98%;
+	height: 170px;
+	filter: saturate(1);
+}
+
+iframe	{
+	box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
+}
+
+nav 	{
+	box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
+}
